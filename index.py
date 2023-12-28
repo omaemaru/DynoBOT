@@ -50,7 +50,7 @@ logo = f"""
 """
 
 print(logo + inspect.cleandoc(f"""
-{Style.DIM}Welcome to DynoBOT, if it is your time ignore the errors on this console and run the command on your discord to initialise the setup.{Style.RESET_ALL}
+{Style.DIM}Welcome to DynoBOT, if it is your first time ignore the errors on this console and run the command on your discord to initialise the setup.{Style.RESET_ALL}
 \nPlease enter your bot's token below to continue."""))
 
 try:
