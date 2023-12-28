@@ -150,7 +150,7 @@ async def on_message(message):
     if message.content.startswith("/" + "dynosetup"):
         await message.channel.send(f"""**DynoBOT** - *You need to enable developer mode on discord*
 
-:white_small_square: To start with the setup and if you want this to be the channel where your bot will be updating your IP you should left click on this channel and copy the ID. Once you have copied the ID it has to be pasted into the config.json file.
+:white_small_square: To start with the setup and if you want this to be the channel where your bot will be updating your IP you should right click on this channel and copy the ID. Once you have copied the ID it has to be pasted into the config.json file.
 
 :white_small_square: Repeat the process by clicking on this same message which will be updated by editing it with the current IP.
 
