@@ -83,19 +83,14 @@ while True:
         # Tells python to quit, along with printing some info on the error that occured
         exit(f"Unknown error has occurred! Additional info:\n{e}")
 
-    if channelID:
-        print(f"--- ChannelID detected in {Fore.GREEN}./config.json{Fore.RESET} (saved from previous session). ---")
-    elif channelID == "0":
+    if channelID == "0":
         print(f"--- {Fore.RED} ChannelID {Fore.RESET} not detected in {Fore.GREEN}./config.json{Fore.RESET} you will need to initiate the setup using the /dynosetup command on your Discord channel. ---")
     else:
         print(f"--- {Fore.RED} ChannelID {Fore.RESET} not detected in {Fore.GREEN}./config.json{Fore.RESET} you will need to initiate the setup using the /dynosetup command on your Discord channel. ---")
-
-    if messageID:
-        print(f"--- MessageID detected in {Fore.GREEN}./config.json{Fore.RESET} (saved from previous session). ---\n")
-    elif messageID == "0":
-        (f"--- {Fore.RED} MessageID {Fore.RESET} not detected in {Fore.GREEN}./config.json{Fore.RESET} you will need to initiate the setup using the /dynosetup command on your Discord channel. ---\n")
-    else:
+    if messageID == "0":
         print(f"--- {Fore.RED} MessageID {Fore.RESET} not detected in {Fore.GREEN}./config.json{Fore.RESET} you will need to initiate the setup using the /dynosetup command on your Discord channel. ---\n")
+    else:
+        print(f"--- MessageID detected in {Fore.GREEN}./config.json{Fore.RESET} (saved from previous session). ---\n")
 
     if data.get("id", None):
         break  
