@@ -19,7 +19,7 @@
    
 6. Invite DynoBOT in to your server.
 
-7. Within the server, Use the `/hello` command provided to you.
+7. Within the server, Use the `/dynosetup` to initialise the setup.
 
 ## Help
 Write me on discord #omaemaru if you need help.
