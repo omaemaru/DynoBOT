@@ -1,7 +1,3 @@
-<p align="center">
-  <img alt="DynoBOT" width="750px">
-</p>
-
 # Requirements 🧾
 - A Discord Bot (create one using the [Discord developer portal](https://discord.com/developers/applications))
 - Python 3.8 or above (https://www.python.org/downloads)
