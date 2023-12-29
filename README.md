@@ -2,7 +2,6 @@
 - A Discord Bot (create one using the [Discord developer portal](https://discord.com/developers/applications))
 - Python 3.8 or above (https://www.python.org/downloads)
 - A Discord server that you own.
-  - Make sure to "enable community" in your server (`Settings` -> `Enable Community`)
 
 ## Usage
 1. Download and install [Python](https://www.python.org/downloads) if you haven't already.
