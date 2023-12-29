@@ -7,7 +7,7 @@
 1. Download and install [Python](https://www.python.org/downloads) if you haven't already.
 
 2. Install `requirements.txt` with the command `pip install -r requirements.txt`
-   - If you are on Windows, you might need to run command prompt as Administrator)
+   - If you are on Windows, you might need to run command prompt as Administrator
 
 3. Navigate to the [discord developer panel](https://discord.com/developers/applications), sign in, and click `New Application`. Choose any name, click accept and create. Next navigate to the `Bot` section and click `Add Bot`.  Click on `Reset Token` and copy the one one.
 
